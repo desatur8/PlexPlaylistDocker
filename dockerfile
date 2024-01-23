@@ -18,7 +18,8 @@ COPY config_editor.py .
 #the shell script that will be run by cron
 COPY entrypoint.sh .
 #shell script that lets cron start with the correct cron file
-COPY start_cron.sh .
+#removing start_sh, testing in cmd
+#COPY start_cron.sh .
 
 #installing dependencies
 RUN pip install plexapi questionary colorama

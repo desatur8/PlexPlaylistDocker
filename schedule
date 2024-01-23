@@ -1,0 +1,1 @@
+0 4,11 * * * /usr/src/app/entrypoint.sh
