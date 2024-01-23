@@ -26,7 +26,7 @@ RUN pip install plexapi questionary colorama
 
 #make the shell scripts executable
 RUN chmod +x entrypoint.sh
-RUN chmod +x start_cron.sh
+#RUN chmod +x start_cron.sh
 
 #set the timezone, and start the cron 
 # Set the timezone, run crontab, and run cron in the foreground
