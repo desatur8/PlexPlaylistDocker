@@ -1,11 +1,22 @@
 import os
 import configparser
 import questionary
+import subprocess
+import time
 from plexapi.server import PlexServer
 from colorama import Fore, Style, init
 
 # Initialize colorama
 init(autoreset=True)
+
+def update_cron():
+    try:
+        cron_file_path = "/etc/cron.d/plex_playlist_cron"
+        subprocess.run(["crontab", cron_file_path], check=True)
+        print("Crontab changes loaded!")
+    except subprocess.CalledProcessError as e:
+        print(f"Error updating cron: {e}")
+
 
 def display_menu():
     os.system('cls' if os.name == 'nt' else 'clear')  # Clear the screen
@@ -239,6 +250,8 @@ def create_cron_file():
         cronfile.write(f"{cron_expression} /usr/src/app/entrypoint.sh\n")
 
     print(f"Cron schedule added to '{cron_file_path}'.")
+    update_cron()
+    time.sleep(2)
 
 if __name__ == "__main__":
     while True:
