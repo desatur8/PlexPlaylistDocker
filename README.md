@@ -40,19 +40,19 @@ To use PlexPlaylistHelper, follow these steps:
     docker exec -it <container_name_or_id> python config_editor.py    
     ```
 
-    ![firefox_KUjVnPJjBB](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/a5cd58d6-fbb8-4d2e-8d1a-f3dfa59b10f9)
+![firefox_KUjVnPJjBB](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/a5cd58d6-fbb8-4d2e-8d1a-f3dfa59b10f9)
 
    To create a new playlist,
    - select create a playlist
    - Choose if its individual shows or from a collection
-     ![firefox_JYEmlZbpnX](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/20b2a716-804e-41f3-9eac-6d447096e9a8)
+![firefox_JYEmlZbpnX](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/20b2a716-804e-41f3-9eac-6d447096e9a8)
    - Select the library where the shows are
-     ![firefox_rHDXYyj2Bv](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/9b54f41d-cd14-4e8c-957c-5d90d1cdd5bd)
+![firefox_rHDXYyj2Bv](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/9b54f41d-cd14-4e8c-957c-5d90d1cdd5bd)
    - Reruns (Y/N) - Reruns will create a list of watched episodes, played randomly, (N) Will select the first unplayed episode from a season
    - Number of episodes to add to the playlists
    - If reruns was selected, number of days to exlude a episode from playing again
    - Select shows with space bar / (a) thay you want part of the playlist
-    ![firefox_3weHaiwP8N](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/8138aa81-99e1-4afe-be5e-8fe1c4f96f40)
+![firefox_3weHaiwP8N](https://github.com/desatur8/PlexPlaylistDocker/assets/53003698/8138aa81-99e1-4afe-be5e-8fe1c4f96f40)
 
 
 
